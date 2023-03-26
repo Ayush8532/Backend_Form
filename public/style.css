@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+}
+
+main{
+    background-color: rgb(240, 237, 237);
+    height: 100vh;
+    display: grid;
+}
+
+form{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 600px;
+    width: 30%;
+    height: 70%;
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+    padding: 8rem 4rem;
+    box-shadow: 2px 5px 15px #4a4949;
+}
+
+h1{
+    font-family: sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+
+input{
+    padding: 1rem;
+    outline: none;
+    border: 1px solid beige;
+    border-radius: 5px;
+}
+
+button{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    width: 12rem;
+    align-items: center;
+    font: 400 1rem sans-serif ;
+    border: none;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    
+}
+
+.error{
+    color: tomato;
+    font-size: 0.9 rem;
+}
